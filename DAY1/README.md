@@ -15,12 +15,14 @@ STEP1: Writing source code
     }```
 
 STEP2: COMPILATION
+
     javac Hello.java
 
 Java compiler translates code into ByteCode where bytecode is stored in a .class file.
     
 
 STEP3: CLASS LOADER
+
     java Hello
 
  Class loader loads the .classfile into memory.
@@ -29,12 +31,15 @@ STEP4: BYTECODE VERIFIER
    - **No illegal access of memory
    - **No stackover flow
    - **Correct datatype Usage
+     
 
 STEP5: JVM(JAVA VIRTUAL MACHINE)
     CPU doesnot understand the Bytecode so JVM converts the Bytecode to machine understandable code before executing it.
+    
 
 STEP6: JIT COMPILER
     Takes frequently used part of the bytecode and converts it them to machine code early so that JVM doesnot have t re-translate everytime.
+    
 
 STEP7: JRE + OS
     Machine code runs in your OS.

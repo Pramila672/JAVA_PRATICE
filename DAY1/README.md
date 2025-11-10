@@ -1,8 +1,8 @@
 
 # Java Practice - Day 1
 
-<p> **Topics Covered:**
-- Basics of Java (variables, data types)
+<p>
+<b>- Basics of Java (variables, data types) </b>
 
 HOW JAVA WORKS?
 
@@ -26,9 +26,9 @@ STEP3: CLASS LOADER
  Class loader loads the .classfile into memory.
 
 STEP4: BYTECODE VERIFIER
-    1. No illegal access of memory
-    2. No stackover flow
-    3. Correct datatype Usage
+   - **No illegal access of memory
+   - **No stackover flow
+   - **Correct datatype Usage
 
 STEP5: JVM(JAVA VIRTUAL MACHINE)
     CPU doesnot understand the Bytecode so JVM converts the Bytecode to machine understandable code before executing it.

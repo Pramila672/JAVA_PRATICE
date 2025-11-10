@@ -7,12 +7,15 @@
 HOW JAVA WORKS?
 
 STEP1: Writing source code
-    ```java
+
+```java
 class Hello {
     public static void main(String[] args) {
         System.out.println("Hello JAVA");
     }
 }
+```
+
 
 STEP2: COMPILATION
 
@@ -26,6 +29,7 @@ STEP3: CLASS LOADER
     java Hello
 
  Class loader loads the .classfile into memory.
+ 
 
 STEP4: BYTECODE VERIFIER
    - **No illegal access of memory

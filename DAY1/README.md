@@ -32,9 +32,9 @@ STEP3: CLASS LOADER
  
 
 STEP4: BYTECODE VERIFIER
-   - **No illegal access of memory
-   - **No stackover flow
-   - **Correct datatype Usage
+   - No illegal access of memory
+   - No stackover flow
+   - Correct datatype Usage
      
 
 STEP5: JVM(JAVA VIRTUAL MACHINE)

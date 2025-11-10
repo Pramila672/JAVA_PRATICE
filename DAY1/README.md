@@ -7,12 +7,12 @@
 HOW JAVA WORKS?
 
 STEP1: Writing source code
-    ```class Hello{
-        public static void main(String[] args)
-        {
-            System.out.println("Hello JAVA");
-        }
-    }```
+    ```java
+class Hello {
+    public static void main(String[] args) {
+        System.out.println("Hello JAVA");
+    }
+}
 
 STEP2: COMPILATION
 

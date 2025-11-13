@@ -8,14 +8,10 @@ HOW JAVA WORKS?
 
 STEP1: Writing source code
 
-```java
 class Hello {
     public static void main(String[] args) {
         System.out.println("Hello JAVA");
     }
-}
-```
-
 
 STEP2: COMPILATION
 

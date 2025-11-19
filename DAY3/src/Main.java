@@ -17,7 +17,7 @@ public class Main {
         Dog d1 = new Dog();
         d1.name = "Luna";
         d1.bark();
-        } */
+        }
 
         //FOR BANK ACCOUNT SYSTEM
 
@@ -36,5 +36,19 @@ public class Main {
         acc1.displayInfo();
         acc2.displayInfo();
 
+        //FOR MATHS.JAVA
+        Maths m1 = new Maths(500, 100);
+
+        System.out.println("The final number after addition is: " + m1.add());
+        System.out.println("The final number after subtraction is: " + m1.sub());
+    */
+    // FOR PERSON
+        Person p1 = new Person("Ramesh" , 25); //creating object from Person class
+//        p1.name ="Pramila";
+//        p1.age = 24;
+        Person p2 = new Person("Pramila", 24);
+        p1.introduce(); //calling a method
+        p2.introduce();
     }
+
 }
